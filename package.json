@@ -4,10 +4,7 @@
   "version": "0.1.0",
   "main": "./value-or-json.js",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rentzsch/node-value-or-json.git"
-  },
+  "repository": "git@github.com:rentzsch/node-value-or-json.git",
   "devDependencies": {
     "ava": "^1.2.1"
   },
