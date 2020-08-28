@@ -21,6 +21,7 @@ function needsStringify(arg) {
     case "undefined":
     case "function":
       return false;
+      break;
     case "object":
     default:
       return true;
