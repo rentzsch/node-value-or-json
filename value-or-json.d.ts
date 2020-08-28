@@ -1,3 +1,6 @@
-export default function valueOrJson<T> (arg: T): T | string;
-
-export function needsStringify (arg: any): boolean;
+export = valueOrJson;
+declare function valueOrJson(arg: any, ...args: any[]): any;
+declare namespace valueOrJson {
+    export { needsStringify };
+}
+declare function needsStringify(arg: any): boolean;
