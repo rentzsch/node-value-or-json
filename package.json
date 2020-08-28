@@ -3,6 +3,7 @@
   "description": "function that always returns a value",
   "version": "0.1.0",
   "main": "./value-or-json.js",
+  "types": "./value-or-json.d.ts",
   "license": "MIT",
   "repository": {
     "type": "git",
