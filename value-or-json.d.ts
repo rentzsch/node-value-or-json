@@ -1,5 +1,5 @@
 export = valueOrJson;
-declare function valueOrJson(arg: any, ...args: any[]): any;
+declare function valueOrJson<T>(arg: T): T | string;
 declare namespace valueOrJson {
     export { needsStringify };
 }
