@@ -10,9 +10,9 @@
     "url": "https://github.com/rentzsch/node-value-or-json.git"
   },
   "devDependencies": {
-    "ava": "^1.2.1"
+    "ava": "^3.12.1"
   },
   "scripts": {
-    "test": "ava *-test.js"
+    "test": "ava"
   }
 }
