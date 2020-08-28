@@ -21,7 +21,6 @@ function needsStringify(arg) {
     case "undefined":
     case "function":
       return false;
-      break;
     case "object":
     default:
       return true;
@@ -29,4 +28,5 @@ function needsStringify(arg) {
 }
 
 valueOrJson.needsStringify = needsStringify;
+
 module.exports = valueOrJson;
