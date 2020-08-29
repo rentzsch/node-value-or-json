@@ -2,12 +2,12 @@
 
 const valueOrJson = require("./value-or-json");
 const assert = require("assert");
-import test from "ava";
+const test = require("ava");
 
 test("fail on no args", t => {
   t.throws(() => {
     valueOrJson();
-  }, assert.AssertionError);
+  }, { instanceOf: assert.AssertionError });
 });
 
 test("string", t => {
