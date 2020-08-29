@@ -29,4 +29,5 @@ function needsStringify(arg) {
 }
 
 valueOrJson.needsStringify = needsStringify;
+
 module.exports = valueOrJson;
