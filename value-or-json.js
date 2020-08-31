@@ -1,9 +1,9 @@
 "use strict";
 
-const assert = require("assert");
-
 function valueOrJson(arg) {
-  assert.strictEqual(arguments.length, 1);
+  if (arguments.length !== 1) {
+    throw new Error("Expected one argument but got " + arguments.length);
+  }
 
   if (needsStringify(arg)) {
     return JSON.stringify(arg);

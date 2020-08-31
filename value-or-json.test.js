@@ -1,13 +1,12 @@
 "use strict";
 
 const valueOrJson = require("./value-or-json");
-const assert = require("assert");
 const test = require("ava");
 
 test("fail on no args", t => {
   t.throws(() => {
     valueOrJson();
-  }, { instanceOf: assert.AssertionError });
+  })
 });
 
 test("string", t => {
