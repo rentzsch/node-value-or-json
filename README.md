@@ -7,6 +7,10 @@ It also exposes `valueOrJson.needsStringify()` in case you just want to test for
 Version History
 ---------------
 
+### v1.1.0 2020-09-02
+
+- NEW Make browser-friendly by converting node-specific `assert()` into JS-generic `throw`. ([alex996](https://github.com/rentzsch/node-value-or-json/pull/4))
+
 ### v1.0.0 2020-08-28
 
 - NEW TypeScript definition. ([alex996](https://github.com/rentzsch/node-value-or-json/pull/1))

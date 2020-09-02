@@ -1,7 +1,7 @@
 {
   "name": "value-or-json",
   "description": "function that always returns a value",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./value-or-json.js",
   "types": "./value-or-json.d.ts",
   "license": "MIT",
